@@ -5,8 +5,7 @@
   "author": "Justin Ethier",
   "main": "build/default/kdtree.node",
   "scripts": {
-    "install": "node-waf configure build",
-    "test": "node-waf test"
+    "install": "node-gyp configure build"
   },
   "repository": {
     "type": "git",
